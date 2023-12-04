@@ -954,6 +954,8 @@ footer div a img {
 }
 
 @media screen and (max-width:640px) {
+    
+    /* PAGINA EVENTOS */
     .carousel {
         display: none;
     }
@@ -982,6 +984,13 @@ footer div a img {
 
 
 @media screen and (max-width:500px){
+    
+    /* HERO */
+    .refran-1 {
+        font-size: 20px;
+    }
+    
+    /* MAIN */
     .sociales p a{
         font-size: 27px;
     }
@@ -1007,8 +1016,13 @@ footer div a img {
 
     /* PAGINA EVENTOS */
 
+    .main-eventos p {
+        display: none;
+    }
+
     .eventos-sociales h2 {
         font-size: 30px;
+        margin-top: 40px;
     }
 
     .eventos-corporativos h2{
@@ -1030,8 +1044,23 @@ footer div a img {
 
 @media screen and (max-width:415px){
 
+    /* HERO */
+    .frase {
+        font-size: 15px;
+    }
+
+    /* MAIN */
+
+    .copas div img {
+        height: 100px;
+        width: 100px;
+    }
+
+
+    /* PAGINA EVENTOS */
     .eventos-sociales ul {
         background-size: 100px;
+        padding: 5px;
     }
 
     .eventos-sociales ul li {
