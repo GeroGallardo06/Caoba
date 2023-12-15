@@ -1,0 +1,254 @@
+/* INDEX */
+
+
+.hero{
+    background-image: url("../img/imagen-altar1.jpeg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 60px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 35px;
+        background-color: rgba(0, 0, 0, 0.432);
+        .refran-1{
+            font-size: 45px;
+            color: white; 
+            border-left: double white 5px;   
+            border-right: double white 5px;  
+            padding: 5px;
+        }
+        .refran-2{
+            font-size: 25px;
+            color: white;
+        }
+    }
+    a{
+        text-decoration: none;
+        color:white;
+        font-size: 50px;
+        width: fit-content;
+        background-color:#c97f54;
+        padding: 10px;
+        border: 2.5px white solid;
+        border-radius: 5px;
+        &:hover{
+            background-color:#d3763f;
+        }
+    }
+}
+/* MAIN*/
+
+
+.frase{
+
+    p{
+        padding: 15px;
+    font-size: 25px;
+    color: #b88060;
+    text-align: center;
+    }
+}
+
+.eventos{
+    display:flex;
+    justify-content: space-between;
+    .imagen-casamiento1{
+        width: 50%;
+        img{
+            height: 550px;
+            width: 100%;
+            margin: 10px;
+            box-shadow: 13px 6px 16px 4px rgba(0,0,0,0.45);
+            -webkit-box-shadow: 13px 6px 16px 4px rgba(0,0,0,0.45);
+            -moz-box-shadow: 13px 6px 16px 4px rgba(0,0,0,0.45);
+            object-fit: cover
+        }
+    }
+    .contenido-eventos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        .frase-evento{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            h2{
+                font-size: 45px;
+            color:#c97f54 ;
+            text-align: right;
+            border: #c97f54 double 5px;
+            border-radius: 10px;
+            }
+            p{
+                color:#7d6354;
+                font-size: 30px;
+                padding: 15px;
+            }
+        }
+    }
+    .copas{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        .corporativos{
+            display: flex;
+        flex-direction: column;
+            .copa-1{
+                background-color:#b88060c5;
+                height: 100px;
+                width: 100px;
+                border:#c97f54 solid 2.5px;
+                border-radius: 40px;
+                object-fit:fill;
+                padding-left: 3px;
+                &:hover{
+                    background-color: #c97f54;
+                }
+            }
+            p{
+                a{
+                    color: #b88060;
+                    font-size: 25px;
+                    text-decoration:none;
+                }
+            }
+        }
+        .sociales{
+            display: flex;
+            flex-direction: column;
+            .copa-2{
+                background-color:#b88060c5;
+                height: 100px;
+                width: 100px;
+                border:#c97f54 solid 2.5px;
+                border-radius: 40px;
+                object-fit:fill;
+                padding-left: 3px;
+                &:hover{
+                    background-color: #c97f54;
+                }
+            }
+            p{
+                a{
+                    color: #b88060;
+                    font-size: 25px;
+                    text-decoration:none;
+                }
+            }
+        }
+        }
+    }
+
+.servicios {
+    display:flex;
+    justify-content: space-between;
+    .contenido-servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .frase-servicios{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            h2{
+                font-size: 45px;
+                color:#c97f54 ;
+                text-align: right;
+                border: #c97f54 double 5px;
+                border-radius: 10px;
+            }
+            p{
+                color:#7d6354;
+                font-size: 30px;
+                padding: 15px;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            background-color:#b88060;
+            font-size: 50px;
+            padding: 10px;
+            border: white double 10px;
+            border-radius: 20px;
+            box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+            -webkit-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+            -moz-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+            &:hover{
+                background-color: #c25313;
+            }
+        }
+    }
+    img{
+        height: 550px;
+        width: 50%;
+        margin: 10px;
+        box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+        -webkit-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+        -moz-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+        object-fit: cover;
+    }
+}
+
+.nuestros-espacios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    h2{
+        font-size: 50px;
+        color:#c97f54;
+        text-align: center;
+        margin: 50px;
+    }
+    .imagenes-espacios{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 400px;
+        gap: 15px;
+        .imagenes{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-shadow: 12px 10px 22px -14px rgba(0,0,0,0.69);
+            -webkit-box-shadow: 12px 10px 22px -14px rgba(0,0,0,0.69);
+            -moz-box-shadow: 12px 10px 22px -14px rgba(0,0,0,0.69);
+            border: #b88060 10px double;
+            border-radius: 15px;
+        }
+        .imagen-1 {
+            grid-column: span 2;
+        }
+        
+        .imagen-2 {
+            grid-row: span 2;
+        }
+        
+        .imagen-3 {
+            grid-row: span 2;
+        }
+        
+        .imagen-7 {
+            grid-column: span 3;
+        }
+    }
+}
+

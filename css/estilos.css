@@ -1,0 +1,670 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box; }
+
+.container-fluid {
+  position: sticky; }
+  .container-fluid .navbar-brand .logo-principal {
+    height: 100px;
+    width: 100px; }
+  .container-fluid .navbar-toggler {
+    color: #682a06;
+    background-color: #dd7b42a1; }
+  .container-fluid div .nav-item {
+    color: #682a06; }
+    .container-fluid div .nav-item:hover {
+      border: #682a06 solid 2px;
+      border-radius: 10px; }
+    .container-fluid div .nav-item .nav-link {
+      color: #682a06; }
+
+/* INDEX */
+.hero {
+  background-image: url("../img/imagen-altar1.jpeg");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 60px; }
+  .hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    background-color: rgba(0, 0, 0, 0.432); }
+    .hero div .refran-1 {
+      font-size: 45px;
+      color: white;
+      border-left: double white 5px;
+      border-right: double white 5px;
+      padding: 5px; }
+    .hero div .refran-2 {
+      font-size: 25px;
+      color: white; }
+  .hero a {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    width: fit-content;
+    background-color: #c97f54;
+    padding: 10px;
+    border: 2.5px white solid;
+    border-radius: 5px; }
+    .hero a:hover {
+      background-color: #d3763f; }
+
+/* MAIN*/
+.frase p {
+  padding: 15px;
+  font-size: 25px;
+  color: #b88060;
+  text-align: center; }
+
+.eventos {
+  display: flex;
+  justify-content: space-between; }
+  .eventos .imagen-casamiento1 {
+    width: 50%; }
+    .eventos .imagen-casamiento1 img {
+      height: 550px;
+      width: 100%;
+      margin: 10px;
+      box-shadow: 13px 6px 16px 4px rgba(0, 0, 0, 0.45);
+      -webkit-box-shadow: 13px 6px 16px 4px rgba(0, 0, 0, 0.45);
+      -moz-box-shadow: 13px 6px 16px 4px rgba(0, 0, 0, 0.45);
+      object-fit: cover; }
+  .eventos .contenido-eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%; }
+    .eventos .contenido-eventos .frase-evento {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+      .eventos .contenido-eventos .frase-evento h2 {
+        font-size: 45px;
+        color: #c97f54;
+        text-align: right;
+        border: #c97f54 double 5px;
+        border-radius: 10px; }
+      .eventos .contenido-eventos .frase-evento p {
+        color: #7d6354;
+        font-size: 30px;
+        padding: 15px; }
+  .eventos .copas {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; }
+    .eventos .copas .corporativos {
+      display: flex;
+      flex-direction: column; }
+      .eventos .copas .corporativos .copa-1 {
+        background-color: #b88060c5;
+        height: 100px;
+        width: 100px;
+        border: #c97f54 solid 2.5px;
+        border-radius: 40px;
+        object-fit: fill;
+        padding-left: 3px; }
+        .eventos .copas .corporativos .copa-1:hover {
+          background-color: #c97f54; }
+      .eventos .copas .corporativos p a {
+        color: #b88060;
+        font-size: 25px;
+        text-decoration: none; }
+    .eventos .copas .sociales {
+      display: flex;
+      flex-direction: column; }
+      .eventos .copas .sociales .copa-2 {
+        background-color: #b88060c5;
+        height: 100px;
+        width: 100px;
+        border: #c97f54 solid 2.5px;
+        border-radius: 40px;
+        object-fit: fill;
+        padding-left: 3px; }
+        .eventos .copas .sociales .copa-2:hover {
+          background-color: #c97f54; }
+      .eventos .copas .sociales p a {
+        color: #b88060;
+        font-size: 25px;
+        text-decoration: none; }
+
+.servicios {
+  display: flex;
+  justify-content: space-between; }
+  .servicios .contenido-servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .servicios .contenido-servicios .frase-servicios {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .servicios .contenido-servicios .frase-servicios h2 {
+        font-size: 45px;
+        color: #c97f54;
+        text-align: right;
+        border: #c97f54 double 5px;
+        border-radius: 10px; }
+      .servicios .contenido-servicios .frase-servicios p {
+        color: #7d6354;
+        font-size: 30px;
+        padding: 15px; }
+    .servicios .contenido-servicios a {
+      text-decoration: none;
+      color: white;
+      background-color: #b88060;
+      font-size: 50px;
+      padding: 10px;
+      border: white double 10px;
+      border-radius: 20px;
+      box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+      -webkit-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+      -moz-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54); }
+      .servicios .contenido-servicios a:hover {
+        background-color: #c25313; }
+  .servicios img {
+    height: 550px;
+    width: 50%;
+    margin: 10px;
+    box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+    object-fit: cover; }
+
+.nuestros-espacios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+  .nuestros-espacios h2 {
+    font-size: 50px;
+    color: #c97f54;
+    text-align: center;
+    margin: 50px; }
+  .nuestros-espacios .imagenes-espacios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;
+    gap: 15px; }
+    .nuestros-espacios .imagenes-espacios .imagenes {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      -webkit-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      -moz-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      border: #b88060 10px double;
+      border-radius: 15px; }
+    .nuestros-espacios .imagenes-espacios .imagen-1 {
+      grid-column: span 2; }
+    .nuestros-espacios .imagenes-espacios .imagen-2 {
+      grid-row: span 2; }
+    .nuestros-espacios .imagenes-espacios .imagen-3 {
+      grid-row: span 2; }
+    .nuestros-espacios .imagenes-espacios .imagen-7 {
+      grid-column: span 3; }
+
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  border: #79350d 10px double; }
+  footer .iconos-footer {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    footer .iconos-footer a img {
+      width: 65px;
+      height: 65px; }
+  footer .logo-footer img {
+    height: 125px;
+    width: 125px; }
+
+.main-eventos {
+  padding-top: 100px; }
+  .main-eventos p {
+    font-size: 22px;
+    color: #c97f54;
+    margin: 40px;
+    border-bottom: double #97491b 5px;
+    border-top: double #97491b 5px;
+    padding: 20px;
+    text-align: center; }
+  .main-eventos .eventos-sociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .main-eventos .eventos-sociales h2 {
+      font-size: 50px;
+      color: #c25313;
+      border: #c97f54 double 5px;
+      margin-bottom: 50px; }
+    .main-eventos .eventos-sociales section {
+      border-top: #7c370f double 10px;
+      border-bottom: #7c370f double 10px; }
+      .main-eventos .eventos-sociales section .carousel
+.carousel-inner .carousel-item {
+        height: 75vh; }
+      .main-eventos .eventos-sociales section .carousel-control-prev {
+        background-color: rgba(0, 0, 0, 0.356); }
+      .main-eventos .eventos-sociales section .carousel-control-next {
+        background-color: rgba(0, 0, 0, 0.356); }
+    .main-eventos .eventos-sociales ul {
+      list-style-type: circle;
+      width: 50%;
+      color: #c25313;
+      font-size: 20px;
+      margin: 30px;
+      border: #7c370f double 10px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+      .main-eventos .eventos-sociales ul .lista-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 15px; }
+      .main-eventos .eventos-sociales ul .lista-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 15px; }
+  .main-eventos .eventos-corporativos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .main-eventos .eventos-corporativos h2 {
+      font-size: 50px;
+      color: #c25313;
+      border: #c97f54 double 5px; }
+    .main-eventos .eventos-corporativos section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: 400px;
+      gap: 10px;
+      width: 90%;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      border: #7c370f solid 5px;
+      padding: 5px; }
+      .main-eventos .eventos-corporativos section img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+        -webkit-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+        -moz-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+        border: #7c370f solid 5px; }
+      .main-eventos .eventos-corporativos section .imagen-cancha-1 {
+        grid-column: span 2;
+        object-position: 90% 50%; }
+      .main-eventos .eventos-corporativos section ul {
+        list-style-type: circle;
+        width: 100%;
+        color: #c25313;
+        height: 100%;
+        font-size: 18px;
+        border: #7c370f double 10px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .main-eventos .eventos-corporativos section ul div {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          height: 100%;
+          padding-right: 5px; }
+          .main-eventos .eventos-corporativos section ul div li {
+            margin-left: 14px; }
+  .main-eventos .link-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .main-eventos .link-servicios a {
+      text-decoration: none;
+      font-size: 40px;
+      background-color: #c97f54;
+      color: white;
+      padding: 20px;
+      border: double white 5px;
+      border-radius: 15px; }
+      .main-eventos .link-servicios a:hover {
+        background-color: #c25313; }
+
+@media screen and (max-width: 1075px) {
+  /*INDEX*/
+  .hero div .refran-1 {
+    font-size: 40px; }
+  .servicios .contenido-servicios .frase-servicios p {
+    font-size: 25px; }
+  /*PAGINA EVENTOS*/
+  .main-eventos p {
+    font-size: 20px; }
+  .main-eventos .eventos-corporativos section ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start; } }
+
+@media screen and (max-width: 960px) {
+  /*INDEX*/
+  .hero {
+    background-position: 40%; }
+  .frase {
+    border-bottom: #79350d double 5px;
+    padding-bottom: 30px; }
+  .eventos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    border-bottom: #79350d dotted 5px;
+    padding-bottom: 40px; }
+    .eventos .imagen-casamiento1 {
+      display: none; }
+    .eventos .contenido-eventos {
+      width: 100%;
+      margin-top: 20px; }
+      .eventos .contenido-eventos .frase-evento {
+        margin-bottom: 20px; }
+      .eventos .contenido-eventos .copas {
+        background-image: url("../img/imagen-casamiento1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 500px;
+        border: double white 10px;
+        display: flex;
+        align-items: center; }
+        .eventos .contenido-eventos .copas .corporativos {
+          background-color: rgba(0, 0, 0, 0.39);
+          padding: 15px;
+          border-radius: 15px; }
+          .eventos .contenido-eventos .copas .corporativos img {
+            background-color: rgba(185, 88, 32, 0.747);
+            height: 150px;
+            width: 150px;
+            border: white double 5px;
+            border-radius: 40px;
+            object-fit: fill;
+            padding-left: 3px; }
+          .eventos .contenido-eventos .copas .corporativos p a {
+            color: white;
+            font-size: 35px; }
+        .eventos .contenido-eventos .copas .sociales {
+          background-color: rgba(0, 0, 0, 0.39);
+          padding: 15px 35px;
+          border-radius: 15px; }
+          .eventos .contenido-eventos .copas .sociales img {
+            background-color: rgba(185, 88, 32, 0.747);
+            height: 150px;
+            width: 150px;
+            border: white double 5px;
+            border-radius: 40px;
+            object-fit: fill;
+            padding-left: 3px; }
+          .eventos .contenido-eventos .copas .sociales p a {
+            color: white;
+            font-size: 35px; }
+  .servicios .contenido-servicios {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-image: url("../img/imagen-vajillas1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    border: double white 10px;
+    margin-top: 40px; }
+    .servicios .contenido-servicios .frase-servicios {
+      width: 50%;
+      border: white double 10px;
+      border-radius: 15px;
+      background-color: rgba(0, 0, 0, 0.39);
+      height: 90%; }
+      .servicios .contenido-servicios .frase-servicios h2 {
+        color: white;
+        border: none;
+        font-size: 40px; }
+      .servicios .contenido-servicios .frase-servicios p {
+        color: white; }
+      .servicios .contenido-servicios .frase-servicios a {
+        background-color: #c25313; }
+  .servicios img {
+    display: none; }
+  .nuestros-espacios .imagenes-espacios {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 400px;
+    gap: 15px; }
+    .nuestros-espacios .imagenes-espacios .imagenes {
+      grid-row: span 1;
+      grid-column: span 1; }
+    .nuestros-espacios .imagenes-espacios .imagen-1 {
+      grid-column: span 2; }
+    .nuestros-espacios .imagenes-espacios .imagen-2 {
+      grid-row: span 2; }
+    .nuestros-espacios .imagenes-espacios .imagen-5 {
+      grid-row: span 2; } }
+
+@media screen and (max-width: 950px) {
+  .hero div .refran-1 {
+    font-size: 35px; }
+  .hero div .refran-2 {
+    font-size: 25px; }
+  .frase {
+    font-size: 17px; }
+  .servicios .contenido-servicios {
+    flex-direction: column; }
+    .servicios .contenido-servicios .frase-servicios {
+      width: 100%;
+      margin: 15px; }
+    .servicios .contenido-servicios a {
+      padding: 15px;
+      margin-bottom: 20px; } }
+
+@media screen and (max-width: 720px) {
+  /*INDEX*/
+  .hero {
+    width: 100%;
+    height: 500px;
+    padding-top: 40px;
+    background-attachment: fixed; }
+    .hero div {
+      margin-top: 25px; }
+      .hero div .refran-1 {
+        font-size: 30px;
+        color: white;
+        border: white double 5px;
+        border-radius: 5px; }
+      .hero div .refran-2 {
+        display: none; }
+    .hero a {
+      color: white;
+      font-size: 40px; }
+  .frase p {
+    font-size: 20px; }
+  /*EVENTOS*/
+  .main-eventos .eventos-sociales h2 {
+    font-size: 40px; }
+  .main-eventos .eventos-sociales ul {
+    width: 80%; }
+  .main-eventos .eventos-corporativos section {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 350px; }
+    .main-eventos .eventos-corporativos section .imagen-cancha-1 {
+      grid-column: span 1; }
+  .main-eventos .eventos-corporativos h2 {
+    font-size: 40px; } }
+
+@media screen and (max-width: 690px) {
+  /*INDEX*/
+  .eventos .contenido-eventos .frase-evento p {
+    display: none; }
+  .eventos .contenido-eventos .copas {
+    background-image: none;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .eventos .contenido-eventos .copas .corporativos {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      background-image: url(../img/imagen-vajillas1.jpeg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .eventos .contenido-eventos .copas .corporativos a img {
+        background-color: rgba(235, 113, 43, 0.705); }
+      .eventos .contenido-eventos .copas .corporativos p {
+        background-color: rgba(0, 0, 0, 0.534);
+        padding: 1%;
+        border-radius: 10px; }
+    .eventos .contenido-eventos .copas .sociales {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      background-image: url(../img/imagen-casamiento1.jpeg);
+      object-fit: fill;
+      background-position: 50% 100%;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .eventos .contenido-eventos .copas .sociales a img {
+        background-color: rgba(235, 113, 43, 0.705); }
+      .eventos .contenido-eventos .copas .sociales p {
+        background-color: rgba(0, 0, 0, 0.534);
+        padding: 1%;
+        border-radius: 10px; }
+  .servicios .contenido-servicios {
+    height: 100%; }
+    .servicios .contenido-servicios .frase-servicios {
+      border: none; }
+      .servicios .contenido-servicios .frase-servicios h2 {
+        font-size: 45px; }
+    .servicios .contenido-servicios a {
+      font-size: 30px;
+      width: 40%;
+      text-align: center; }
+  .nuestros-espacios .imagenes-espacios {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 400px;
+    gap: 15px; }
+    .nuestros-espacios .imagenes-espacios .imagenes {
+      grid-row: span 1;
+      grid-column: span 1; }
+  footer .iconos-footer {
+    width: 60%; }
+    footer .iconos-footer img {
+      height: 60px;
+      width: 60px; }
+  /*EVENTOS*/
+  .main-eventos p {
+    font-size: 17px; }
+  .main-eventos .eventos-sociales h2 {
+    font-size: 35px; }
+  .main-eventos .eventos-sociales ul {
+    width: 100%; }
+  .main-eventos .eventos-corporativos h2 {
+    font-size: 35px; } }
+
+@media screen and (max-width: 640px) {
+  /*EVENTOS*/
+  .main-eventos .eventos-sociales section .carousel {
+    display: none; }
+  .main-eventos .eventos-sociales h2 {
+    margin: 0px; }
+  .main-eventos .eventos-sociales ul {
+    background-image: url(../img/logo-principal.jpeg);
+    background-position: 90% 40%;
+    background-size: contain;
+    height: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start; }
+    .main-eventos .eventos-sociales ul .lista-1 {
+      align-items: start; }
+    .main-eventos .eventos-sociales ul .lista-2 {
+      align-items: start; } }
+
+@media screen and (max-width: 500px) {
+  /*INDEX*/
+  .hero div .refran-1 {
+    font-size: 20px; }
+  .eventos .contenido-eventos .copas .sociales p a {
+    font-size: 27px; }
+  .eventos .contenido-eventos .copas .corporativos p a {
+    font-size: 27px; }
+  .servicios .contenido-servicios a {
+    font-size: 20px; }
+  footer .iconos-footer a img {
+    height: 40px;
+    width: 40px; }
+  /*EVENTOS*/
+  .main-eventos .eventos-corporativos h2 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 415px) {
+  /*INDEX*/
+  .frase {
+    font-size: 15px; }
+  .eventos .contenido-eventos .copas .corporativos a .copa-1 {
+    height: 100px;
+    width: 100px; }
+  .eventos .contenido-eventos .copas .sociales a .copa-2 {
+    height: 100px;
+    width: 100px; }
+  .servicios .contenido-servicios .frase-servicios p {
+    font-size: 20px; }
+  .servicios .contenido-servicios a {
+    font-size: 20px;
+    width: 50%; }
+  /*EVENTOS*/
+  .main-eventos .eventos-sociales ul {
+    background-size: 100px;
+    padding: 5px; }
+    .main-eventos .eventos-sociales ul li {
+      font-size: 15px;
+      margin-left: 10px; }
+  .main-eventos .eventos-sociales h2 {
+    font-size: 25px; }
+  .main-eventos .eventos-corporativos h2 {
+    font-size: 23px; } }

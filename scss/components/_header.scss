@@ -1,0 +1,25 @@
+.container-fluid{
+    position: sticky;
+    .navbar-brand{
+        .logo-principal{
+            height: 100px;
+            width: 100px;
+        }
+    }
+    .navbar-toggler{
+        color: #682a06;
+        background-color: #dd7b42a1;
+    }
+    div{
+        .nav-item{
+            color: #682a06;
+            &:hover{
+                border: #682a06 solid 2px;
+                border-radius: 10px;
+            }
+            .nav-link{
+                color: #682a06
+            }
+        }
+    }
+}

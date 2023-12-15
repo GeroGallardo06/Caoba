@@ -1,0 +1,25 @@
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border: #79350d 10px double;
+    .iconos-footer{
+        width: 35%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            img{
+                width: 65px;
+                height: 65px;
+            }
+        }
+    }
+    .logo-footer{
+        img{
+        height: 125px;
+        width: 125px;
+        }
+    }
+}
