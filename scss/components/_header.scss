@@ -7,18 +7,18 @@
         }
     }
     .navbar-toggler{
-        color: #682a06;
+        color: $principal-oscuro;
         background-color: #dd7b42a1;
     }
     div{
         .nav-item{
-            color: #682a06;
+            color: $principal-oscuro;
             &:hover{
-                border: #682a06 solid 2px;
+                border: $principal-oscuro solid 2px;
                 border-radius: 10px;
             }
             .nav-link{
-                color: #682a06
+                color: $principal-oscuro
             }
         }
     }

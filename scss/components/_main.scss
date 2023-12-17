@@ -37,12 +37,12 @@
         color:white;
         font-size: 50px;
         width: fit-content;
-        background-color:#c97f54;
+        background-color:$principal-claro;
         padding: 10px;
         border: 2.5px white solid;
         border-radius: 5px;
         &:hover{
-            background-color:#d3763f;
+            background-color:$secundario-claro;
         }
     }
 }
@@ -54,7 +54,7 @@
     p{
         padding: 15px;
     font-size: 25px;
-    color: #b88060;
+    color:$principal-claro;
     text-align: center;
     }
 }
@@ -88,13 +88,13 @@
             text-align: center;
             h2{
                 font-size: 45px;
-            color:#c97f54 ;
+            color:$principal-claro;
             text-align: right;
-            border: #c97f54 double 5px;
+            border: $principal-claro double 5px;
             border-radius: 10px;
             }
             p{
-                color:#7d6354;
+                color:$letra-texto;
                 font-size: 30px;
                 padding: 15px;
             }
@@ -111,12 +111,12 @@
                 background-color:#b88060c5;
                 height: 100px;
                 width: 100px;
-                border:#c97f54 solid 2.5px;
+                border:$principal-claro solid 2.5px;
                 border-radius: 40px;
                 object-fit:fill;
                 padding-left: 3px;
                 &:hover{
-                    background-color: #c97f54;
+                    background-color: $principal-claro;
                 }
             }
             p{
@@ -134,12 +134,12 @@
                 background-color:#b88060c5;
                 height: 100px;
                 width: 100px;
-                border:#c97f54 solid 2.5px;
+                border:$principal-claro solid 2.5px;
                 border-radius: 40px;
                 object-fit:fill;
                 padding-left: 3px;
                 &:hover{
-                    background-color: #c97f54;
+                    background-color: $principal-claro;
                 }
             }
             p{
@@ -169,13 +169,13 @@
             text-align: center;
             h2{
                 font-size: 45px;
-                color:#c97f54 ;
+                color:$principal-claro ;
                 text-align: right;
-                border: #c97f54 double 5px;
+                border: $principal-claro double 5px;
                 border-radius: 10px;
             }
             p{
-                color:#7d6354;
+                color:$letra-texto;
                 font-size: 30px;
                 padding: 15px;
             }
@@ -192,7 +192,7 @@
             -webkit-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
             -moz-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
             &:hover{
-                background-color: #c25313;
+                background-color: $secundario-claro;
             }
         }
     }
@@ -214,7 +214,7 @@
     align-items: center;
     h2{
         font-size: 50px;
-        color:#c97f54;
+        color:$principal-claro;
         text-align: center;
         margin: 50px;
     }

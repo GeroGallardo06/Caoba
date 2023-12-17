@@ -1,3 +1,4 @@
+/*VARIABLES*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
 * {
   margin: 0px;
@@ -66,7 +67,7 @@
 .frase p {
   padding: 15px;
   font-size: 25px;
-  color: #b88060;
+  color: #c97f54;
   text-align: center; }
 
 .eventos {
@@ -179,7 +180,7 @@
       -webkit-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
       -moz-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54); }
       .servicios .contenido-servicios a:hover {
-        background-color: #c25313; }
+        background-color: #d3763f; }
   .servicios img {
     height: 550px;
     width: 50%;
@@ -247,8 +248,8 @@ footer {
     font-size: 22px;
     color: #c97f54;
     margin: 40px;
-    border-bottom: double #97491b 5px;
-    border-top: double #97491b 5px;
+    border-bottom: double #682a06 5px;
+    border-top: double #682a06 5px;
     padding: 20px;
     text-align: center; }
   .main-eventos .eventos-sociales {
@@ -258,7 +259,7 @@ footer {
     align-items: center; }
     .main-eventos .eventos-sociales h2 {
       font-size: 50px;
-      color: #c25313;
+      color: #d3763f;
       border: #c97f54 double 5px;
       margin-bottom: 50px; }
     .main-eventos .eventos-sociales section {
@@ -274,10 +275,10 @@ footer {
     .main-eventos .eventos-sociales ul {
       list-style-type: circle;
       width: 50%;
-      color: #c25313;
+      color: #d3763f;
       font-size: 20px;
       margin: 30px;
-      border: #7c370f double 10px;
+      border: #682a06 double 10px;
       border-radius: 15px;
       display: flex;
       justify-content: space-evenly;
@@ -301,7 +302,7 @@ footer {
     align-items: center; }
     .main-eventos .eventos-corporativos h2 {
       font-size: 50px;
-      color: #c25313;
+      color: #d3763f;
       border: #c97f54 double 5px; }
     .main-eventos .eventos-corporativos section {
       display: grid;
@@ -311,7 +312,7 @@ footer {
       width: 90%;
       margin-bottom: 40px;
       margin-top: 40px;
-      border: #7c370f solid 5px;
+      border: #682a06 solid 5px;
       padding: 5px; }
       .main-eventos .eventos-corporativos section img {
         height: 100%;
@@ -320,17 +321,17 @@ footer {
         box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
         -webkit-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
         -moz-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
-        border: #7c370f solid 5px; }
+        border: #682a06 solid 5px; }
       .main-eventos .eventos-corporativos section .imagen-cancha-1 {
         grid-column: span 2;
         object-position: 90% 50%; }
       .main-eventos .eventos-corporativos section ul {
         list-style-type: circle;
         width: 100%;
-        color: #c25313;
+        color: #d3763f;
         height: 100%;
         font-size: 18px;
-        border: #7c370f double 10px;
+        border: #682a06 double 10px;
         border-radius: 15px;
         display: flex;
         justify-content: space-between;
@@ -357,7 +358,16 @@ footer {
       border: double white 5px;
       border-radius: 15px; }
       .main-eventos .link-servicios a:hover {
-        background-color: #c25313; }
+        background-color: #d3763f; }
+
+main .titulo-contactanos {
+  font-size: 50px;
+  color: white;
+  border: white double 10px;
+  margin-top: 130px;
+  text-align: center;
+  padding: 10px;
+  background-color: #d3763f; }
 
 @media screen and (max-width: 1075px) {
   /*INDEX*/
