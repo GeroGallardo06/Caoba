@@ -360,7 +360,7 @@ footer {
       .main-eventos .link-servicios a:hover {
         background-color: #d3763f; }
 
-main .titulo-contactanos {
+.main-contactanos .titulo-contactanos {
   font-size: 50px;
   color: white;
   border: white double 10px;
@@ -368,6 +368,225 @@ main .titulo-contactanos {
   text-align: center;
   padding: 10px;
   background-color: #d3763f; }
+
+.main-contactanos .formulario-contactanos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+  .main-contactanos .formulario-contactanos .formulario {
+    width: 50%;
+    margin-top: 0px;
+    margin-left: 20px;
+    border: double 10px #682a06;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54); }
+    .main-contactanos .formulario-contactanos .formulario p {
+      text-align: center;
+      color: #682a06;
+      font-size: 30px;
+      border-bottom: 5px dotted #682a06; }
+  .main-contactanos .formulario-contactanos img {
+    height: 515px;
+    width: 45%;
+    object-fit: cover;
+    border: solid 3px #682a06; }
+
+.main-contactanos .seccion-redes {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%; }
+  .main-contactanos .seccion-redes .imagenes-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 55%;
+    height: 515px;
+    margin: 10px;
+    border: double 10px #682a06;
+    box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54); }
+    .main-contactanos .seccion-redes .imagenes-redes p {
+      text-align: center;
+      color: #682a06;
+      font-size: 30px; }
+    .main-contactanos .seccion-redes .imagenes-redes div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      border: none; }
+      .main-contactanos .seccion-redes .imagenes-redes div a .redes {
+        height: 150px;
+        width: 150px;
+        border: none; }
+  .main-contactanos .seccion-redes .imagen-redes {
+    height: 515px;
+    width: 50%;
+    object-fit: cover;
+    border: solid 3px #682a06;
+    margin-left: 20px; }
+
+.main-servicios .titulo-servicios {
+  color: #c97f54;
+  font-size: 50px;
+  border: double #c97f54 5px;
+  margin-top: 130px;
+  text-align: center; }
+
+.main-servicios .frase-nuestros-servicios {
+  color: #c97f54;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-bottom: dotted #c97f54 5px;
+  padding-bottom: 40px;
+  padding-top: 20px; }
+
+.main-servicios .servicios-espacios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+  border-bottom: dotted #c97f54 5px;
+  padding-bottom: 40px; }
+  .main-servicios .servicios-espacios h2 {
+    color: #682a06;
+    font-size: 40px;
+    border: double #682a06 5px;
+    width: fit-content;
+    padding: 10px; }
+  .main-servicios .servicios-espacios p {
+    color: #7d6354;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px; }
+  .main-servicios .servicios-espacios div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px 450px 450px;
+    gap: 15px;
+    width: 100%;
+    padding: 10px; }
+    .main-servicios .servicios-espacios div img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border: double #682a06 10px; }
+    .main-servicios .servicios-espacios div .img-servicios-1 {
+      grid-column: span 2; }
+    .main-servicios .servicios-espacios div .img-servicios-3 {
+      grid-row: span 2; }
+
+.main-servicios .servicios-gastronomia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: dotted #c97f54 5px;
+  padding-bottom: 40px; }
+  .main-servicios .servicios-gastronomia h2 {
+    color: #682a06;
+    font-size: 40px;
+    border: double #682a06 5px;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 40px; }
+  .main-servicios .servicios-gastronomia .grid-gastronomia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px 400px;
+    gap: 10px;
+    width: 100%;
+    padding: 10px; }
+    .main-servicios .servicios-gastronomia .grid-gastronomia img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border: #c97f54 double 10px;
+      box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      -webkit-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      -moz-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69); }
+    .main-servicios .servicios-gastronomia .grid-gastronomia .lista-gastronomia {
+      border: #682a06 double 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      -webkit-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      -moz-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69); }
+      .main-servicios .servicios-gastronomia .grid-gastronomia .lista-gastronomia p {
+        color: #d3763f;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px; }
+      .main-servicios .servicios-gastronomia .grid-gastronomia .lista-gastronomia ul li {
+        color: #7d6354;
+        font-size: 20px;
+        margin: 5px; }
+
+.main-servicios .servicios-equipo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+  .main-servicios .servicios-equipo h2 {
+    color: #682a06;
+    font-size: 40px;
+    border: double #682a06 5px;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 40px; }
+  .main-servicios .servicios-equipo .contenido-equipo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px; }
+    .main-servicios .servicios-equipo .contenido-equipo img {
+      width: 50%;
+      height: 500px;
+      object-fit: cover;
+      border: double #c97f54 10px;
+      box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      -webkit-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      -moz-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69); }
+    .main-servicios .servicios-equipo .contenido-equipo .lista-equipo {
+      border: #682a06 double 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 500px;
+      margin: 10px;
+      box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      -webkit-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      -moz-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69); }
+      .main-servicios .servicios-equipo .contenido-equipo .lista-equipo p {
+        color: #d3763f;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px; }
+      .main-servicios .servicios-equipo .contenido-equipo .lista-equipo ul li {
+        color: #7d6354;
+        font-size: 20px;
+        margin: 5px; }
 
 @media screen and (max-width: 1075px) {
   /*INDEX*/
@@ -382,7 +601,11 @@ main .titulo-contactanos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start; } }
+    align-items: start; }
+  /*PAGINA CONTACTANOS*/
+  .main-contactanos .seccion-redes .imagenes-redes div a .redes {
+    height: 80px;
+    width: 80px; } }
 
 @media screen and (max-width: 960px) {
   /*INDEX*/
@@ -485,7 +708,23 @@ main .titulo-contactanos {
     .nuestros-espacios .imagenes-espacios .imagen-2 {
       grid-row: span 2; }
     .nuestros-espacios .imagenes-espacios .imagen-5 {
-      grid-row: span 2; } }
+      grid-row: span 2; }
+  /*PAGINA CONTACTANOS*/
+  .main-contactanos div .formulario p {
+    font-size: 25px; }
+  .main-contactanos div img {
+    height: 500px; }
+  .main-contactanos .seccion-redes .imagenes-redes p {
+    font-size: 25px; }
+  /*NUESTROS SERVICIOS*/
+  .main-servicios .frase-nuestros-servicios {
+    font-size: 23px; }
+  .main-servicios .servicios-espacios p {
+    font-size: 23px; }
+  .main-servicios .servicios-gastronomia .grid-gastronomia .lista-gastronomia p {
+    font-size: 20px; }
+  .main-servicios .servicios-equipo .contenido-equipo .lista-equipo p {
+    font-size: 23px; } }
 
 @media screen and (max-width: 950px) {
   .hero div .refran-1 {
@@ -536,7 +775,64 @@ main .titulo-contactanos {
     .main-eventos .eventos-corporativos section .imagen-cancha-1 {
       grid-column: span 1; }
   .main-eventos .eventos-corporativos h2 {
-    font-size: 40px; } }
+    font-size: 40px; }
+  /*PAGINA CONTACTANOS*/
+  .main-contactanos .formulario-contactanos .formulario {
+    width: 100%;
+    margin: 0px;
+    box-shadow: none; }
+  .main-contactanos .formulario-contactanos img {
+    display: none; }
+  .main-contactanos .seccion-redes .imagenes-redes {
+    width: 100%;
+    box-shadow: none;
+    margin: 0px; }
+    .main-contactanos .seccion-redes .imagenes-redes p {
+      font-size: 30px; }
+    .main-contactanos .seccion-redes .imagenes-redes div a .redes {
+      height: 100px;
+      width: 100px; }
+  .main-contactanos .seccion-redes .imagen-redes {
+    display: none; }
+  /*NUESTROS SERVICIOS*/
+  .main-servicios .frase-nuestros-servicios {
+    font-size: 18px; }
+  .main-servicios .servicios-espacios p {
+    font-size: 15px;
+    border-bottom: dotted #c97f54 2px;
+    padding-bottom: 20px; }
+  .main-servicios .servicios-espacios div {
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 400px;
+    gap: 10px; }
+    .main-servicios .servicios-espacios div .img-servicios-1 {
+      grid-column: span 1; }
+    .main-servicios .servicios-espacios div .img-servicios-3 {
+      display: none; }
+  .main-servicios .servicios-gastronomia .grid-gastronomia {
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 400px 400px; }
+    .main-servicios .servicios-gastronomia .grid-gastronomia .img-gastronomia-1 {
+      display: none; }
+    .main-servicios .servicios-gastronomia .grid-gastronomia .img-gastronomia-2 {
+      display: none; }
+    .main-servicios .servicios-gastronomia .grid-gastronomia .lista-gastronomia p {
+      font-size: 20px;
+      text-align: center; }
+  .main-servicios .servicios-equipo .contenido-equipo {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center; }
+    .main-servicios .servicios-equipo .contenido-equipo img {
+      height: 400px;
+      width: 100%;
+      border: none;
+      border-top: double #682a06 10px;
+      border-bottom: double #682a06 10px; }
+    .main-servicios .servicios-equipo .contenido-equipo .lista-equipo {
+      height: 300px;
+      margin: 0px;
+      margin-top: 5px; } }
 
 @media screen and (max-width: 690px) {
   /*INDEX*/
@@ -633,7 +929,10 @@ main .titulo-contactanos {
     .main-eventos .eventos-sociales ul .lista-1 {
       align-items: start; }
     .main-eventos .eventos-sociales ul .lista-2 {
-      align-items: start; } }
+      align-items: start; }
+  /*NUESTROS SERVICIOS*/
+  .main-servicios .titulo-servicios {
+    font-size: 30px; } }
 
 @media screen and (max-width: 500px) {
   /*INDEX*/
@@ -650,7 +949,21 @@ main .titulo-contactanos {
     width: 40px; }
   /*EVENTOS*/
   .main-eventos .eventos-corporativos h2 {
-    font-size: 30px; } }
+    font-size: 30px; }
+  /*NUESTROS SERVICIOS*/
+  .main-servicios .servicios-espacios h2 {
+    font-size: 30px; }
+  .main-servicios .servicios-gastronomia h2 {
+    font-size: 30px; }
+  .main-servicios .servicios-equipo .contenido-equipo img {
+    display: none; }
+  .main-servicios .servicios-equipo .contenido-equipo .lista-equipo ul {
+    width: 100%;
+    background-image: url(../img/logo-principal.jpeg);
+    background-position: 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: start; } }
 
 @media screen and (max-width: 415px) {
   /*INDEX*/
@@ -677,4 +990,26 @@ main .titulo-contactanos {
   .main-eventos .eventos-sociales h2 {
     font-size: 25px; }
   .main-eventos .eventos-corporativos h2 {
-    font-size: 23px; } }
+    font-size: 23px; }
+  /*CONTACTANOS*/
+  .main-contactanos .formulario-contactanos .formulario p {
+    font-size: 25px; }
+  .main-contactanos .seccion-redes .imagenes-redes p {
+    font-size: 25px; }
+  .main-contactanos .seccion-redes .imagenes-redes div a .redes {
+    height: 65px;
+    width: 65px; }
+  /*NUESTROS SERVICIOS*/
+  .main-servicios .servicios-equipo .contenido-equipo .lista-equipo {
+    border: none;
+    box-shadow: none; }
+    .main-servicios .servicios-equipo .contenido-equipo .lista-equipo p {
+      font-size: 17px;
+      border-top: dotted #c97f54 2px;
+      border-bottom: dotted #c97f54 2px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+    .main-servicios .servicios-equipo .contenido-equipo .lista-equipo ul {
+      background-position: 100%; }
+      .main-servicios .servicios-equipo .contenido-equipo .lista-equipo ul li {
+        margin: 0px; } }

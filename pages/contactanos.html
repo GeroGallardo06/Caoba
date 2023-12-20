@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <!--<link rel="stylesheet" href="../css/style.css">-->
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css" />
 </head>
 
 <body>
@@ -16,16 +16,16 @@
         <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img class="logo-principal"
-                        src="../img/logo-principal.jpeg" alt=""></a>
+                        src="../img/logo-principal.jpeg" alt="" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="./contactanos.html">Contactanos</a>
+                            <a class="nav-link" aria-current="page" href="./contactanos.html">Contactanos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./eventos.html">eventos</a>
@@ -41,41 +41,55 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main-contactanos">
         <h2 class="titulo-contactanos">¡Contactanos!</h2>
-        <div>   
+        <div class="formulario-contactanos">
             <form class="formulario" action="">
-                    <p>Completa el formulario y nosotros te contactamos:</p>
-                    <div>
-                        <label for="Nombre">Nombre</label>
-                        <input type="text" id="Nombre">
+                <p>Completa el formulario y nosotros te contactamos</p>
+                <form>
+                    <div class="row mb-3">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Nombre</label>
+                        <div class="col-sm-10">
+                            <input type="Nombre" class="form-control" id="inputPassword3" />
+                        </div>
                     </div>
-                    <div>
-                        <label for="Apellido">Apellido</label>
-                        <input type="text" id="Apellido">
+                    <div class="row mb-3">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Apellido</label>
+                        <div class="col-sm-10">
+                            <input type="Apellido" class="form-control" id="inputPassword3" />
+                        </div>
                     </div>
-                    <div>
-                        <label for="Numero">Numero de telefono</label>
-                        <input type="text" id="Numero">
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3" />
+                        </div>
                     </div>
-                    <div>
-                        <label for="Email">Correo electronico</label>
-                        <input type="email" id="Email">
-                    </div>
+                    <button type="submit" class="btn btn-primary ">Enviar</button>
+                </form>
             </form>
-            <div>
-
+            <img src="../img/imagen-galeria-este-2.jpeg" alt="imagen">
+        </div>
+        <div class="seccion-redes">
+            <div class="imagenes-redes" >
+                <p>Tambien nos puedes encontrar en nuestras redes sociales!</p>
+                <div>
+                    <a href=""><img class="redes" src="../img/facebook.png" alt="imagen facebook" /></a>
+                    <a href=""><img class="redes" src="../img/instagram.png" alt="imagen instagram" /></a>
+                    <a href=""><img class="redes" src="../img/whatsapp.png" alt="imagen whatsapp" /></a>
+                </div>
             </div>
-        </div> 
+            <img src="../img/imagen-tragos1.jpeg" alt="imagen" class="imagen-redes">
+        </div>
     </main>
     <footer>
         <div class="logo-footer">
-            <img class="logo-principal" src="../img/logo-principal.jpeg" alt="logo caoba">
+            <img class="logo-principal" src="../img/logo-principal.jpeg" alt="logo caoba" />
         </div>
         <div class="iconos-footer">
-            <a href=""><img src="../img/facebook.png" alt="imagen facebook"></a>
-            <a href=""><img src="../img/instagram.png" alt="imagen instagram"></a>
-            <a href=""><img src="../img/whatsapp.png" alt="imagen whatsapp"></a>
+            <a href=""><img src="../img/facebook.png" alt="imagen facebook" /></a>
+            <a href=""><img src="../img/instagram.png" alt="imagen instagram" /></a>
+            <a href=""><img src="../img/whatsapp.png" alt="imagen whatsapp" /></a>
         </div>
     </footer>
 

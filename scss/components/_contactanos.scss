@@ -1,4 +1,4 @@
-main {
+.main-contactanos {
     .titulo-contactanos{
         font-size: 50px;
         color: white;
@@ -8,4 +8,85 @@ main {
         padding: 10px;
         background-color:$secundario-claro;
     }
+    .formulario-contactanos{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        .formulario{
+            width: 50%;
+            margin-top: 0px;
+            margin-left: 20px;
+            border: double 10px $principal-oscuro;
+            padding-top: 35px;
+            padding-bottom: 35px;
+            padding-left: 10px;
+            padding-right: 10px;
+            box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+            -webkit-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+            -moz-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+            p{
+                text-align: center;
+                color: $principal-oscuro;
+                font-size: 30px;
+                border-bottom: 5px dotted $principal-oscuro;
+            }
+        }
+        img{
+            height:515px;
+            width: 45%;
+            object-fit: cover;
+            border: solid 3px $principal-oscuro;            
+        }
+    }
+    .seccion-redes{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 40px;
+        width: 100%;
+        .imagenes-redes{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 55%;
+            height: 515px;
+            margin: 10px;
+            border: double 10px $principal-oscuro;
+            box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+            -webkit-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+            -moz-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+            p{
+                text-align: center;
+                color: $principal-oscuro;
+                font-size: 30px;
+            }
+            div{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                border: none;
+                a{
+                    .redes{
+                        height: 150px;
+                        width: 150px;
+                        border: none;
+                    }
+                }
+            }
+        }
+        .imagen-redes{
+            height: 515px;
+            width: 50%;
+            object-fit: cover;
+            border: solid 3px $principal-oscuro; 
+            margin-left: 20px;
+        }
+    }
 }
+
