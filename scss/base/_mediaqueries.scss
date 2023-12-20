@@ -240,6 +240,29 @@
             }
         }
     }
+
+    /*PORQUE ELEGIRNOS*/
+    .main-elegirnos{
+        .seccion-2-elegirnos{
+            background-image: url("../img/logo-principal.jpeg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            .texto-2-elegirnos{
+                width: 100%;
+                align-items: start;
+                p{
+                    width: 50%;
+                }
+                h3{
+                    width: 50%;
+                }
+            }
+            img{
+                display: none;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:950px){
@@ -421,6 +444,68 @@
             }
         }
     }
+
+    /*PORQUE ELEGIRNOS*/
+    .main-elegirnos{
+        .seccion-1-elegirnos{
+            .texto-1-elegirnos{
+                background-image: url("../img/logo-principal.jpeg");
+                width: 100%;
+                background-position: right;
+                background-size:300px;
+                background-repeat: no-repeat;
+                align-items: start;
+                h3{
+                    font-size: 35px;
+                    width: 55%;
+                }
+                p{
+                    font-size: 23px;
+                    width: 55%;
+                }
+            }
+            img{
+                display: none;
+            }
+        }
+        .seccion-2-elegirnos{
+            background-size:300px;
+            .texto-2-elegirnos{
+                h3{
+                    font-size: 35px;
+                    width: 55%;
+                }
+                p{
+                    font-size: 23px;
+                    width: 55%;
+                }
+            }
+            img{
+                display: none;
+            }
+        }
+        .seccion-3-elegirnos{
+            .texto-3-elegirnos{
+                background-image: url("../img/logo-principal.jpeg");
+                width: 100%;
+                background-position: right;
+                background-size:300px;
+                background-repeat: no-repeat;
+                align-items: start;
+                h3{
+                    font-size: 35px;
+                    width: 55%;
+                }
+                p{
+                    font-size: 23px;
+                    width: 55%;
+                }
+            }
+            img{
+                display: none;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:690px){
@@ -581,6 +666,52 @@
             font-size: 30px;
         }
     }
+
+    /*PORQUE ELEGIRNOS*/
+    .main-elegirnos{
+        .seccion-1-elegirnos{
+            .texto-1-elegirnos{
+                align-items: center;
+                background-image: none;
+                h3{
+                    width: 100%;
+                    font-size: 40px;
+                }
+                p{
+                    width: 100%;
+                    font-size: 30px;
+                }
+            }
+        }
+        .seccion-2-elegirnos{
+            background-image: none;
+            .texto-2-elegirnos{
+                align-items: center;
+                h3{
+                    width: 100%;
+                    font-size: 40px;
+                }
+                p{
+                    width: 100%;
+                    font-size: 30px;
+                }
+            }
+        }
+        .seccion-3-elegirnos{
+            .texto-3-elegirnos{
+                align-items: center;
+                background-image: none;
+                h3{
+                    width: 100%;
+                    font-size: 40px;
+                }
+                p{
+                    width: 100%;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:500px){
@@ -665,6 +796,43 @@
                         background-repeat: no-repeat;
                         text-align: start;
                     }
+                }
+            }
+        }
+    }
+
+    /*PORQUE ELEGIRNOS*/
+    .main-elegirnos{
+        h2{
+            font-size: 40px ;
+        }
+        .seccion-1-elegirnos{
+            .texto-1-elegirnos{
+                h3{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 25px;
+                }
+            }
+        }
+        .seccion-2-elegirnos{
+            .texto-2-elegirnos{
+                h3{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 25px;
+                }
+            }
+        }
+        .seccion-3-elegirnos{
+            .texto-3-elegirnos{
+                h3{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 25px;
                 }
             }
         }
@@ -781,6 +949,46 @@
                             margin: 0px;
                         }
                     }
+                }
+            }
+        }
+    }
+
+    /*PORQUE ELEGIRNOS*/
+    .main-elegirnos{
+        h2{
+            font-size: 30px ;
+        }
+        .seccion-1-elegirnos{
+            height: 400px;
+            .texto-1-elegirnos{
+                h3{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+        .seccion-2-elegirnos{
+            height: 400px;
+            .texto-2-elegirnos{
+                h3{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+        .seccion-3-elegirnos{
+            height: 400px;
+            .texto-3-elegirnos{
+                h3{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
                 }
             }
         }
