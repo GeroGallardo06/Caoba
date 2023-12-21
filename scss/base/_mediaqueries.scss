@@ -2,7 +2,7 @@
     /*INDEX*/
     .hero{
         div{
-            .refran-1{
+            h1{
                 font-size: 40px;
             }
         }
@@ -254,7 +254,7 @@
                 p{
                     width: 50%;
                 }
-                h3{
+                h2{
                     width: 50%;
                 }
             }
@@ -268,7 +268,7 @@
 @media screen and (max-width:950px){
     .hero{
         div{
-            .refran-1{
+            h1{
                 font-size: 35px;
             }
             .refran-2 {
@@ -303,7 +303,7 @@
         background-attachment: fixed;
         div{
             margin-top: 25px;
-            .refran-1{
+            h1{
                 font-size: 30px;
                 color:white; 
                 border: white double 5px ;
@@ -326,7 +326,7 @@
     /*EVENTOS*/
     .main-eventos{
         .eventos-sociales{
-            h2{
+            h1{
                 font-size: 40px;
             }
             ul{
@@ -455,7 +455,7 @@
                 background-size:300px;
                 background-repeat: no-repeat;
                 align-items: start;
-                h3{
+                h2{
                     font-size: 35px;
                     width: 55%;
                 }
@@ -471,7 +471,7 @@
         .seccion-2-elegirnos{
             background-size:300px;
             .texto-2-elegirnos{
-                h3{
+                h2{
                     font-size: 35px;
                     width: 55%;
                 }
@@ -492,7 +492,7 @@
                 background-size:300px;
                 background-repeat: no-repeat;
                 align-items: start;
-                h3{
+                h2{
                     font-size: 35px;
                     width: 55%;
                 }
@@ -613,7 +613,7 @@
             font-size: 17px;
         }
         .eventos-sociales{
-            h2{
+            h1{
                 font-size: 35px;
             }
             ul{
@@ -637,7 +637,7 @@
                     display: none;
                 }
             }
-            h2{
+            h1{
                 margin: 0px;
             }
             ul{
@@ -662,7 +662,7 @@
 
     /*NUESTROS SERVICIOS*/
     .main-servicios{
-        .titulo-servicios{
+        h1{
             font-size: 30px;
         }
     }
@@ -673,7 +673,7 @@
             .texto-1-elegirnos{
                 align-items: center;
                 background-image: none;
-                h3{
+                h2{
                     width: 100%;
                     font-size: 40px;
                 }
@@ -687,7 +687,7 @@
             background-image: none;
             .texto-2-elegirnos{
                 align-items: center;
-                h3{
+                h2{
                     width: 100%;
                     font-size: 40px;
                 }
@@ -701,7 +701,7 @@
             .texto-3-elegirnos{
                 align-items: center;
                 background-image: none;
-                h3{
+                h2{
                     width: 100%;
                     font-size: 40px;
                 }
@@ -718,7 +718,7 @@
     /*INDEX*/
     .hero{
         div{
-            .refran-1{
+            h1{
                 font-size: 20px;
             }
         }
@@ -803,12 +803,12 @@
 
     /*PORQUE ELEGIRNOS*/
     .main-elegirnos{
-        h2{
+        h1{
             font-size: 40px ;
         }
         .seccion-1-elegirnos{
             .texto-1-elegirnos{
-                h3{
+                h2{
                     font-size: 35px;
                 }
                 p{
@@ -818,7 +818,7 @@
         }
         .seccion-2-elegirnos{
             .texto-2-elegirnos{
-                h3{
+                h2{
                     font-size: 35px;
                 }
                 p{
@@ -828,7 +828,7 @@
         }
         .seccion-3-elegirnos{
             .texto-3-elegirnos{
-                h3{
+                h2{
                     font-size: 35px;
                 }
                 p{
@@ -891,7 +891,7 @@
                     margin-left: 10px;
                 }
             }
-            h2{
+            h1{
                 font-size: 25px;
             }
         }
@@ -904,6 +904,9 @@
 
     /*CONTACTANOS*/
     .main-contactanos{
+        h1{
+            font-size:40px;
+        }
         .formulario-contactanos{
             .formulario{
                 p{
@@ -956,13 +959,13 @@
 
     /*PORQUE ELEGIRNOS*/
     .main-elegirnos{
-        h2{
+        h1{
             font-size: 30px ;
         }
         .seccion-1-elegirnos{
             height: 400px;
             .texto-1-elegirnos{
-                h3{
+                h2{
                     font-size: 30px;
                 }
                 p{
@@ -973,7 +976,7 @@
         .seccion-2-elegirnos{
             height: 400px;
             .texto-2-elegirnos{
-                h3{
+                h2{
                     font-size: 30px;
                 }
                 p{
@@ -984,7 +987,7 @@
         .seccion-3-elegirnos{
             height: 400px;
             .texto-3-elegirnos{
-                h3{
+                h2{
                     font-size: 30px;
                 }
                 p{

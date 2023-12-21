@@ -42,7 +42,7 @@
     justify-content: center;
     padding: 35px;
     background-color: rgba(0, 0, 0, 0.432); }
-    .hero div .refran-1 {
+    .hero div h1 {
       font-size: 45px;
       color: white;
       border-left: double white 5px;
@@ -257,7 +257,7 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center; }
-    .main-eventos .eventos-sociales h2 {
+    .main-eventos .eventos-sociales h1 {
       font-size: 50px;
       color: #d3763f;
       border: #c97f54 double 5px;
@@ -360,7 +360,7 @@ footer {
       .main-eventos .link-servicios a:hover {
         background-color: #d3763f; }
 
-.main-contactanos .titulo-contactanos {
+.main-contactanos h1 {
   font-size: 50px;
   color: white;
   border: white double 10px;
@@ -439,7 +439,7 @@ footer {
     border: solid 3px #682a06;
     margin-left: 20px; }
 
-.main-servicios .titulo-servicios {
+.main-servicios h1 {
   color: #c97f54;
   font-size: 50px;
   border: double #c97f54 5px;
@@ -588,7 +588,7 @@ footer {
         font-size: 20px;
         margin: 5px; }
 
-.main-elegirnos h2 {
+.main-elegirnos h1 {
   margin-top: 130px;
   border: double #c97f54 10px;
   color: #c97f54;
@@ -611,7 +611,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px; }
-    .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos h3 {
+    .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos h2 {
       color: #c97f54;
       font-size: 40px;
       text-align: center; }
@@ -640,7 +640,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px; }
-    .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h3 {
+    .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h2 {
       color: #c97f54;
       font-size: 40px;
       text-align: center; }
@@ -669,7 +669,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px; }
-    .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos h3 {
+    .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos h2 {
       color: #c97f54;
       font-size: 40px;
       text-align: center; }
@@ -684,7 +684,7 @@ footer {
 
 @media screen and (max-width: 1075px) {
   /*INDEX*/
-  .hero div .refran-1 {
+  .hero div h1 {
     font-size: 40px; }
   .servicios .contenido-servicios .frase-servicios p {
     font-size: 25px; }
@@ -830,13 +830,13 @@ footer {
       align-items: start; }
       .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos p {
         width: 50%; }
-      .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h3 {
+      .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h2 {
         width: 50%; }
     .main-elegirnos .seccion-2-elegirnos img {
       display: none; } }
 
 @media screen and (max-width: 950px) {
-  .hero div .refran-1 {
+  .hero div h1 {
     font-size: 35px; }
   .hero div .refran-2 {
     font-size: 25px; }
@@ -860,7 +860,7 @@ footer {
     background-attachment: fixed; }
     .hero div {
       margin-top: 25px; }
-      .hero div .refran-1 {
+      .hero div h1 {
         font-size: 30px;
         color: white;
         border: white double 5px;
@@ -873,7 +873,7 @@ footer {
   .frase p {
     font-size: 20px; }
   /*EVENTOS*/
-  .main-eventos .eventos-sociales h2 {
+  .main-eventos .eventos-sociales h1 {
     font-size: 40px; }
   .main-eventos .eventos-sociales ul {
     width: 80%; }
@@ -950,7 +950,7 @@ footer {
     background-size: 300px;
     background-repeat: no-repeat;
     align-items: start; }
-    .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos h3 {
+    .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos h2 {
       font-size: 35px;
       width: 55%; }
     .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos p {
@@ -960,7 +960,7 @@ footer {
     display: none; }
   .main-elegirnos .seccion-2-elegirnos {
     background-size: 300px; }
-    .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h3 {
+    .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h2 {
       font-size: 35px;
       width: 55%; }
     .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos p {
@@ -975,7 +975,7 @@ footer {
     background-size: 300px;
     background-repeat: no-repeat;
     align-items: start; }
-    .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos h3 {
+    .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos h2 {
       font-size: 35px;
       width: 55%; }
     .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos p {
@@ -1053,7 +1053,7 @@ footer {
   /*EVENTOS*/
   .main-eventos p {
     font-size: 17px; }
-  .main-eventos .eventos-sociales h2 {
+  .main-eventos .eventos-sociales h1 {
     font-size: 35px; }
   .main-eventos .eventos-sociales ul {
     width: 100%; }
@@ -1064,7 +1064,7 @@ footer {
   /*EVENTOS*/
   .main-eventos .eventos-sociales section .carousel {
     display: none; }
-  .main-eventos .eventos-sociales h2 {
+  .main-eventos .eventos-sociales h1 {
     margin: 0px; }
   .main-eventos .eventos-sociales ul {
     background-image: url(../img/logo-principal.jpeg);
@@ -1081,13 +1081,13 @@ footer {
     .main-eventos .eventos-sociales ul .lista-2 {
       align-items: start; }
   /*NUESTROS SERVICIOS*/
-  .main-servicios .titulo-servicios {
+  .main-servicios h1 {
     font-size: 30px; }
   /*PORQUE ELEGIRNOS*/
   .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos {
     align-items: center;
     background-image: none; }
-    .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos h3 {
+    .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos h2 {
       width: 100%;
       font-size: 40px; }
     .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos p {
@@ -1097,7 +1097,7 @@ footer {
     background-image: none; }
     .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos {
       align-items: center; }
-      .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h3 {
+      .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h2 {
         width: 100%;
         font-size: 40px; }
       .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos p {
@@ -1106,7 +1106,7 @@ footer {
   .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos {
     align-items: center;
     background-image: none; }
-    .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos h3 {
+    .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos h2 {
       width: 100%;
       font-size: 40px; }
     .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos p {
@@ -1115,7 +1115,7 @@ footer {
 
 @media screen and (max-width: 500px) {
   /*INDEX*/
-  .hero div .refran-1 {
+  .hero div h1 {
     font-size: 20px; }
   .eventos .contenido-eventos .copas .sociales p a {
     font-size: 27px; }
@@ -1144,17 +1144,17 @@ footer {
     background-repeat: no-repeat;
     text-align: start; }
   /*PORQUE ELEGIRNOS*/
-  .main-elegirnos h2 {
+  .main-elegirnos h1 {
     font-size: 40px; }
-  .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos h3 {
+  .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos h2 {
     font-size: 35px; }
   .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos p {
     font-size: 25px; }
-  .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h3 {
+  .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h2 {
     font-size: 35px; }
   .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos p {
     font-size: 25px; }
-  .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos h3 {
+  .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos h2 {
     font-size: 35px; }
   .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos p {
     font-size: 25px; } }
@@ -1181,11 +1181,13 @@ footer {
     .main-eventos .eventos-sociales ul li {
       font-size: 15px;
       margin-left: 10px; }
-  .main-eventos .eventos-sociales h2 {
+  .main-eventos .eventos-sociales h1 {
     font-size: 25px; }
   .main-eventos .eventos-corporativos h2 {
     font-size: 23px; }
   /*CONTACTANOS*/
+  .main-contactanos h1 {
+    font-size: 40px; }
   .main-contactanos .formulario-contactanos .formulario p {
     font-size: 25px; }
   .main-contactanos .seccion-redes .imagenes-redes p {
@@ -1208,23 +1210,23 @@ footer {
       .main-servicios .servicios-equipo .contenido-equipo .lista-equipo ul li {
         margin: 0px; }
   /*PORQUE ELEGIRNOS*/
-  .main-elegirnos h2 {
+  .main-elegirnos h1 {
     font-size: 30px; }
   .main-elegirnos .seccion-1-elegirnos {
     height: 400px; }
-    .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos h3 {
+    .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos h2 {
       font-size: 30px; }
     .main-elegirnos .seccion-1-elegirnos .texto-1-elegirnos p {
       font-size: 20px; }
   .main-elegirnos .seccion-2-elegirnos {
     height: 400px; }
-    .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h3 {
+    .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos h2 {
       font-size: 30px; }
     .main-elegirnos .seccion-2-elegirnos .texto-2-elegirnos p {
       font-size: 20px; }
   .main-elegirnos .seccion-3-elegirnos {
     height: 400px; }
-    .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos h3 {
+    .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos h2 {
       font-size: 30px; }
     .main-elegirnos .seccion-3-elegirnos .texto-3-elegirnos p {
       font-size: 20px; } }
