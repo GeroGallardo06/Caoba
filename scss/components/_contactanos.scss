@@ -14,10 +14,9 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+        margin-top: 15px;
         .formulario{
             width: 50%;
-            margin-top: 0px;
-            margin-left: 20px;
             border: double 10px $principal-oscuro;
             padding-top: 35px;
             padding-bottom: 35px;
@@ -26,6 +25,10 @@
             box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
             -webkit-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
             -moz-box-shadow: -12px 10px 24px 0px rgba(0,0,0,0.54);
+            height: 515px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
             p{
                 text-align: center;
                 color: $principal-oscuro;
@@ -35,7 +38,7 @@
         }
         img{
             height:515px;
-            width: 45%;
+            width: 48%;
             object-fit: cover;
             border: solid 3px $principal-oscuro;            
         }
@@ -82,7 +85,7 @@
         }
         .imagen-redes{
             height: 515px;
-            width: 50%;
+            width: 49%;
             object-fit: cover;
             border: solid 3px $principal-oscuro; 
             margin-left: 20px;

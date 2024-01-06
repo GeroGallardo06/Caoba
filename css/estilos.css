@@ -59,9 +59,11 @@
     background-color: #c97f54;
     padding: 10px;
     border: 2.5px white solid;
-    border-radius: 5px; }
+    border-radius: 5px;
+    transition: 1s; }
     .hero a:hover {
-      background-color: #d3763f; }
+      background-color: #d3763f;
+      transform: scale(1.2); }
 
 /* MAIN*/
 .frase p {
@@ -78,7 +80,7 @@
     .eventos .imagen-casamiento1 img {
       height: 550px;
       width: 100%;
-      margin: 10px;
+      margin-bottom: 10px;
       box-shadow: 13px 6px 16px 4px rgba(0, 0, 0, 0.45);
       -webkit-box-shadow: 13px 6px 16px 4px rgba(0, 0, 0, 0.45);
       -moz-box-shadow: 13px 6px 16px 4px rgba(0, 0, 0, 0.45);
@@ -103,8 +105,8 @@
         border-radius: 10px; }
       .eventos .contenido-eventos .frase-evento p {
         color: #7d6354;
-        font-size: 30px;
-        padding: 15px; }
+        font-size: 27px;
+        padding: 20px; }
   .eventos .copas {
     width: 100%;
     display: flex;
@@ -119,9 +121,11 @@
         border: #c97f54 solid 2.5px;
         border-radius: 40px;
         object-fit: fill;
-        padding-left: 3px; }
+        padding-left: 3px;
+        transition: 1s; }
         .eventos .copas .corporativos .copa-1:hover {
-          background-color: #c97f54; }
+          background-color: #c97f54;
+          transform: scale(1.1); }
       .eventos .copas .corporativos p a {
         color: #b88060;
         font-size: 25px;
@@ -136,9 +140,11 @@
         border: #c97f54 solid 2.5px;
         border-radius: 40px;
         object-fit: fill;
-        padding-left: 3px; }
+        padding-left: 3px;
+        transition: 1s; }
         .eventos .copas .sociales .copa-2:hover {
-          background-color: #c97f54; }
+          background-color: #c97f54;
+          transform: scale(1.1); }
       .eventos .copas .sociales p a {
         color: #b88060;
         font-size: 25px;
@@ -151,7 +157,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    width: 50%; }
     .servicios .contenido-servicios .frase-servicios {
       display: flex;
       flex-direction: column;
@@ -166,8 +173,8 @@
         border-radius: 10px; }
       .servicios .contenido-servicios .frase-servicios p {
         color: #7d6354;
-        font-size: 30px;
-        padding: 15px; }
+        font-size: 27px;
+        padding: 22px; }
     .servicios .contenido-servicios a {
       text-decoration: none;
       color: white;
@@ -178,13 +185,15 @@
       border-radius: 20px;
       box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
       -webkit-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
-      -moz-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54); }
+      -moz-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+      transition: 1s; }
       .servicios .contenido-servicios a:hover {
-        background-color: #d3763f; }
+        background-color: #d3763f;
+        transform: scale(1.1); }
   .servicios img {
     height: 550px;
     width: 50%;
-    margin: 10px;
+    margin-top: 10px;
     box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
     -webkit-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
     -moz-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
@@ -214,7 +223,10 @@
       -webkit-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
       -moz-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
       border: #b88060 10px double;
-      border-radius: 15px; }
+      border-radius: 15px;
+      transition: 1s; }
+      .nuestros-espacios .imagenes-espacios .imagenes:hover {
+        transform: scale(1.03); }
     .nuestros-espacios .imagenes-espacios .imagen-1 {
       grid-column: span 2; }
     .nuestros-espacios .imagenes-espacios .imagen-2 {
@@ -356,9 +368,11 @@ footer {
       color: white;
       padding: 20px;
       border: double white 5px;
-      border-radius: 15px; }
+      border-radius: 15px;
+      transition: 1s; }
       .main-eventos .link-servicios a:hover {
-        background-color: #d3763f; }
+        background-color: #d3763f;
+        transform: scale(1.1); }
 
 .main-contactanos h1 {
   font-size: 50px;
@@ -374,11 +388,10 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  margin-top: 15px; }
   .main-contactanos .formulario-contactanos .formulario {
     width: 50%;
-    margin-top: 0px;
-    margin-left: 20px;
     border: double 10px #682a06;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -386,7 +399,11 @@ footer {
     padding-right: 10px;
     box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
     -webkit-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
-    -moz-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54); }
+    -moz-box-shadow: -12px 10px 24px 0px rgba(0, 0, 0, 0.54);
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
     .main-contactanos .formulario-contactanos .formulario p {
       text-align: center;
       color: #682a06;
@@ -394,7 +411,7 @@ footer {
       border-bottom: 5px dotted #682a06; }
   .main-contactanos .formulario-contactanos img {
     height: 515px;
-    width: 45%;
+    width: 48%;
     object-fit: cover;
     border: solid 3px #682a06; }
 
@@ -434,7 +451,7 @@ footer {
         border: none; }
   .main-contactanos .seccion-redes .imagen-redes {
     height: 515px;
-    width: 50%;
+    width: 49%;
     object-fit: cover;
     border: solid 3px #682a06;
     margin-left: 20px; }
@@ -486,7 +503,10 @@ footer {
       height: 100%;
       width: 100%;
       object-fit: cover;
-      border: double #682a06 10px; }
+      border: double #682a06 10px;
+      transition: 1s; }
+      .main-servicios .servicios-espacios div img:hover {
+        transform: scale(1.03); }
     .main-servicios .servicios-espacios div .img-servicios-1 {
       grid-column: span 2; }
     .main-servicios .servicios-espacios div .img-servicios-3 {
@@ -520,7 +540,10 @@ footer {
       border: #c97f54 double 10px;
       box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
       -webkit-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
-      -moz-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69); }
+      -moz-box-shadow: 12px 10px 22px -14px rgba(0, 0, 0, 0.69);
+      transition: 1s; }
+      .main-servicios .servicios-gastronomia .grid-gastronomia img:hover {
+        transform: scale(1.03); }
     .main-servicios .servicios-gastronomia .grid-gastronomia .lista-gastronomia {
       border: #682a06 double 10px;
       display: flex;
@@ -773,7 +796,8 @@ footer {
     background-attachment: fixed;
     height: 500px;
     border: double white 10px;
-    margin-top: 40px; }
+    margin-top: 40px;
+    width: 100%; }
     .servicios .contenido-servicios .frase-servicios {
       width: 50%;
       border: white double 10px;
@@ -849,7 +873,9 @@ footer {
       margin: 15px; }
     .servicios .contenido-servicios a {
       padding: 15px;
-      margin-bottom: 20px; } }
+      margin-bottom: 20px; }
+  .nuestros-espacios .imagenes-espacios .imagenes:hover {
+    transform: none; } }
 
 @media screen and (max-width: 720px) {
   /*INDEX*/

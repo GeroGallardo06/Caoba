@@ -50,6 +50,10 @@
                 width: 100%;
                 object-fit: cover;
                 border: double $principal-oscuro 10px;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.03);
+                }
             }
             .img-servicios-1{
                 grid-column: span 2;
@@ -89,6 +93,10 @@
                 box-shadow: 12px 10px 22px -14px rgba(0,0,0,0.69);
             -webkit-box-shadow: 12px 10px 22px -14px rgba(0,0,0,0.69);
             -moz-box-shadow: 12px 10px 22px -14px rgba(0,0,0,0.69);
+            transition: 1s;
+                &:hover{
+                    transform: scale(1.03);
+                }
             }
             .lista-gastronomia{
                 border: $principal-oscuro double 10px;

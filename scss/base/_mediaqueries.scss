@@ -143,6 +143,7 @@
             height: 500px;
             border: double white 10px;
             margin-top: 40px;
+            width: 100%;
             .frase-servicios{
                 width: 50%;
                 border: white double 10px;
@@ -289,6 +290,15 @@
             a{
                 padding: 15px;
                 margin-bottom: 20px;
+            }
+        }
+    }
+    .nuestros-espacios{
+        .imagenes-espacios{
+            .imagenes{
+                &:hover{
+                    transform: none;
+                }
             }
         }
     }

@@ -135,8 +135,10 @@
             padding: 20px;
             border: double white 5px;
             border-radius: 15px;
+            transition: 1s;
             &:hover{
                 background-color:$secundario-claro;
+                transform: scale(1.1);
             }
         }
     }
